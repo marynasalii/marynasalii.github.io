@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* GENERAL STYLES */
+
+@font-face {
+  font-family: Poppins Regular;
+  font-weight: 400;
+  src: url(../fonts/poppins-regular-webfont.ttf) format("ttf"),
+    url(../fonts/poppins-regular-webfont.woff) format("woff"),
+    url(../fonts/poppins-regular-webfont.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: Poppins ExtraBold;
+  src: url(../fonts/poppins-extrabold-webfont.ttf) format("ttf"),
+    url(../fonts/poppins-extrabold-webfont.woff) format("woff"),
+    url(../fonts/poppins-extrabold-webfont.woff2) format("woff2");
+}
+
+body,
+html {
+  font-family: Poppins Regular;
+}
+
+.vertical-line {
+  border-left: 4px solid white;
+  top: 2rem;
+}
+
+
+/* HEADER STYLES*/
+
+#main-header {
+  background-image: url(../img/header-bg.jpg);
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -60px;
+  margin-bottom: -60px;
+}
+
+.intro-text {
+  margin-left: auto;
+}
+
+h1 {
+  font-family: Poppins ExtraBold;
+}
+
+button {
+  border-radius: 60px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+
+/* WHO I AM SECTION STYLES*/
+
+#who-i-am {
+  
+}
