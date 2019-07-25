@@ -25,8 +25,13 @@ html {
   font-family: Poppins Regular;
 }
 
-.vertical-line {
-  border-left: 4px solid white;
+.vertical-line-white {
+  border-left: 4px solid #ffffff;
+  top: 2rem;
+}
+
+.vertical-line-gray {
+  border-left: 4px solid #334E68;
   top: 2rem;
 }
 
@@ -54,15 +59,7 @@ button {
   border-radius: 60px;
 }
 
-.shadow {
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777;
-}
-
 
 /* WHO I AM SECTION STYLES*/
 
-#who-i-am {
-  
-}
+#who-i-am {}

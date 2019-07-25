@@ -1,5 +1,6 @@
 module.exports = {
   theme: {
+    extend:{
         colors: {
         'white': '#ffffff',
         'black': '#000000',
@@ -30,6 +31,18 @@ module.exports = {
         '6xl': '3rem',
         '7xl': '3.5rem',
         '8xl': '4rem',
+      },
+      borderRadius: {
+        'none': '0',
+        'sm': '.125rem',
+        default: '1.25rem',
+        'lg': '.5rem',
+        'full': '9999px',
+      },
+      boxShadow: {
+        default: '0 10px 6px -6px #777',
+        outline: '0px 4px 4px rgba(0, 0, 0, 0.25)'
       }
+    }
 }
 }
