@@ -62,7 +62,7 @@ button {
 
 /* WHAT I USE SECTION STYLES*/
 
-#what-i-use .icon-circle i{
+.icon-circle i{
   margin: 0;
   position: absolute;
   top: 50%;
@@ -73,5 +73,10 @@ button {
 /* CONTACT SECTION STYLES*/
 
 #contact {
-  top: -5rem;
+  top: -4rem;
+  z-index: 1;
+}
+
+#footer {
+  top: -8rem;
 }
