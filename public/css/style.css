@@ -69,3 +69,9 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* CONTACT SECTION STYLES*/
+
+#contact {
+  top: -5rem;
+}

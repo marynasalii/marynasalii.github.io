@@ -7631,6 +7631,12 @@ button {
   transform: translate(-50%, -50%);
 }
 
+/* CONTACT SECTION STYLES*/
+
+#contact {
+  top: -5rem;
+}
+
 @media (min-width: 640px) {
   .sm\:appearance-none {
     -webkit-appearance: none;
