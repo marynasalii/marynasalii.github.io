@@ -6,11 +6,9 @@
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
-    "font-awesome": "^5.0.0",
     "tailwindcss": "^1.0"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.9.0",
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "concurrently": "^4.1.0",
     "cross-env": "^5.2.0",
