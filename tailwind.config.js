@@ -42,7 +42,11 @@ module.exports = {
       boxShadow: {
         default: '0 10px 6px -6px #777',
         outline: '0px 4px 4px rgba(0, 0, 0, 0.25)'
-      }
+      },
+    },
+    container: {
+      padding: '2rem',
+      center: true
     }
 }
 }
