@@ -7637,13 +7637,19 @@ button {
 
 /* CONTACT SECTION STYLES*/
 
-#contact {
+.container-contact {
   top: -4rem;
   z-index: 1;
 }
 
+/* FOOTER SECTION STYLES*/
+
 #footer {
-  top: -8rem;
+  margin-top: -8rem;
+}
+
+#footer .social {
+  justify-content: space-evenly;
 }
 
 @media (min-width: 640px) {
