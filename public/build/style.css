@@ -7609,17 +7609,13 @@ html {
   background-size: cover;
 }
 
-.intro-text {
-  margin-left: auto;
-}
-
 button {
   border-radius: 60px;
 }
 
 /* WHAT I USE SECTION STYLES*/
 
-.icon-circle i{
+.icon-circle i {
   margin: 0;
   position: absolute;
   top: 50%;

@@ -43,10 +43,6 @@ html {
   background-size: cover;
 }
 
-.intro-text {
-  margin-left: auto;
-}
-
 button {
   border-radius: 60px;
 }
@@ -54,13 +50,14 @@ button {
 
 /* WHAT I USE SECTION STYLES*/
 
-.icon-circle i{
+.icon-circle i {
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 
 /* CONTACT SECTION STYLES*/
 
@@ -69,11 +66,13 @@ button {
   z-index: 1;
 }
 
+
 /* FOOTER SECTION STYLES*/
 
 #footer {
   margin-top: -8rem;
 }
- #footer .social {
-   justify-content: space-evenly;
- }
+
+#footer .social {
+  justify-content: space-evenly;
+}
