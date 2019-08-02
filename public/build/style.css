@@ -7592,6 +7592,11 @@ html {
   font-family: Poppins Regular;
 }
 
+h1 {
+  font-family: Poppins ExtraBold;
+  text-shadow: 0 0 50px hsla(0, 0%, 0%, .4);
+}
+
 .vertical-line-white {
   border-left: 2px solid #ffffff;
 }
@@ -7609,14 +7614,23 @@ html {
 /* HEADER STYLES*/
 
 #main-header {
-  background-image: url(../img/header-bg.jpg);
-  min-height: 31rem;
-  background-repeat: no-repeat;
+  background: url(../img/download.png) no-repeat bottom center scroll;
+  min-height: 28rem;
   background-size: cover;
+}
+
+.overlay {
+  background-color: hsla(0, 0%, 0%, .5);
 }
 
 button {
   border-radius: 60px;
+}
+
+/* WHO I AM SECTION STYLES*/
+
+#who-i-am span {
+  font-family: Poppins ExtraBold;
 }
 
 /* WHAT I USE SECTION STYLES*/
