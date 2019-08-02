@@ -27,9 +27,11 @@ html {
 
 h1 {
   font-family: Poppins ExtraBold;
-  text-shadow: 0 0 50px hsla(0, 0%, 0%, .4);
 }
 
+.text-shadow {
+  text-shadow: 0 0 50px hsla(0, 0%, 0%, .4);
+}
 .vertical-line-white {
   border-left: 2px solid #ffffff;
 }
@@ -48,8 +50,8 @@ h1 {
 /* HEADER STYLES*/
 
 #main-header {
-  background: url(../img/download.png) no-repeat bottom center scroll;
-  ;
+  background-image: url(../img/hypnotize.png);
+  /* background: url(../img/download.png) no-repeat bottom center scroll; */
   min-height: 28rem;
   background-size: cover;
 }
