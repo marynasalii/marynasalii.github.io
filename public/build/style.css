@@ -7617,10 +7617,9 @@ h1 {
 /* HEADER STYLES*/
 
 #main-header {
-  background-image: url(../img/gridme.png);
+  background-image: url(../img/hypnotize.png);
   /* background: url(../img/download.png) no-repeat bottom center scroll; */
   min-height: 28rem;
-  /* background-size: cover; */
 }
 
 .overlay {
