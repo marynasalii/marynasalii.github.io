@@ -7616,6 +7616,10 @@ h1 {
   .flex-33 {
     flex: 0 33%;
   }
+
+  .custom-ml-19 {
+    margin-left: 19rem;
+  }
 }
 
 /* HEADER STYLES*/
