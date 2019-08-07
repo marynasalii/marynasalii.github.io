@@ -7657,14 +7657,26 @@ button {
 /* CONTACT SECTION STYLES*/
 
 .container-contact {
-  top: -4rem;
+  top: -6rem;
   z-index: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .container-contact {
+    top: -4rem;
+  }
 }
 
 /* FOOTER SECTION STYLES*/
 
 #footer {
-  margin-top: -8rem;
+  margin-top: -12rem;
+}
+
+@media screen and (min-width: 1024px) {
+  #footer {
+    margin-top: -8rem;
+  }
 }
 
 #footer .social {
