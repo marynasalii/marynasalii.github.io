@@ -36,7 +36,7 @@ module.exports = {
         'none': '0',
         'sm': '.125rem',
         default: '1.25rem',
-        'lg': '.5rem',
+        'lg': '3.75rem',
         'full': '9999px',
       },
       boxShadow: {

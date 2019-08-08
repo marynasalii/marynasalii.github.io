@@ -60,8 +60,11 @@ h1 {
 
 #main-header {
   background-image: url(../img/hypnotize.png);
-  /* background: url(../img/download.png) no-repeat bottom center scroll; */
   min-height: 28rem;
+}
+
+#menu-toggle:checked+#menu {
+  display: flex;
 }
 
 .overlay {

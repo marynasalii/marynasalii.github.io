@@ -22,12 +22,23 @@
 	<header id="main-header">
 		<div class="container">
 			<div class="flex justify-end">
-				<button class="mt-10">
+				<label for="menu-toggle" class="mt-10">
 					<svg viewBox="0 0 24 24" width="24" height="24">
 						<path class="heroicon-ui"
 							d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
 					</svg>
-				</button>
+				</label>
+				<input class="hidden" type="checkbox" id="menu-toggle" />
+
+				<div class="hidden h-screen w-screen items-center justify-center fixed bg-green-200 inset-0 z-10" id="menu">
+					<ul class="">
+						<li class="text-center pt-4 pb-4"><a class="text-3xl font-medium text-white hover:text-gray-200" href="">Who I am.</a></li>
+						<li class="text-center pt-4 pb-4"><a class="text-3xl font-medium text-white hover:text-gray-200" href="">What I do.</a></li>
+						<li class="text-center pt-4 pb-4"><a class="text-3xl font-medium text-white hover:text-gray-200" href="">Testemonials.</a></li>
+						<li class="text-center pt-4 pb-4"><a class="text-3xl font-medium text-white hover:text-gray-200" href="">What I use.</a></li>
+						<li class="text-center pt-4 pb-4"><a class="text-3xl font-medium text-white hover:text-gray-200" href="">Contact me.</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="flex flex-col items-center m-auto pb-64 pt-48 lg:pb-56 lg:pt-40">
 				<p class="text-gray-300 tracking-wider text-base lg:text-xl text-shadow">Oh, hi there!</p>
@@ -64,7 +75,7 @@
 						clinics to receive high-quality hearing aids.
 					</p>
 					<button
-						class="bg-green-200 text-white block font-medium pt-2 pb-2 text-tiny pr-8 pl-8 shadow-outline lg:text-base lg:pt-3 lg:pb-3 ">Download
+						class="bg-green-200 text-white block rounded-lg font-medium pt-2 pb-2 text-tiny pr-8 pl-8 shadow-outline lg:text-base lg:pt-3 lg:pb-3 ">Download
 						resume</button>
 				</div>
 			</div>
@@ -224,14 +235,13 @@
 			<div id="contact"
 				class="flex flex-col justify-center -mt-24 relative overflow-hidden h-48 m-auto bg-white rounded shadow-outline lg:h-32 lg:-mt-16">
 				<p class="text-gray-400 text-center pt-6 pr-6 pl-6 lg:pl-2 lg:pr-2 lg:pt-2">
-					If you wanna chat just shoot me a direct message via <a href="mailto:marynasalii@gmail.com"
-						class="font-medium underline text-green-200">email</a> or hit me up through social media listed
+					If you wanna chat just shoot me a direct message via email or hit me up through social media listed
 					below!
 				</p>
-				<button
-					class="text-white bg-green-200 m-auto font-medium pt-2 pb-2 mt-4 mb-6 text-tiny pr-8 pl-8 shadow lg:mb-2">
+				<a href="mailto:marynasalii@gmail.com"
+					class="text-white bg-green-200 rounded-lg m-auto font-medium pt-2 pb-2 mt-4 mb-6 text-tiny pr-8 pl-8 shadow lg:mb-2">
 					Let's chat
-				</button>
+				</a>
 			</div>
 			<div class="mt-32 text-center">
 				<a href="" class="pr-4 pl-4">
@@ -244,4 +254,9 @@
 					<i class="fab fa-facebook-f text-xl text-gray-100"></i>
 				</a>
 			</div>
-			<p class="mt-16 text-white text-center">Made with &lt;3 by Maryna</p> </div> </footer> </body> </html>
+			<p class="mt-16 text-white text-center">Made with &lt;3 by Maryna</p>
+		</div>
+	</footer>
+</body>
+
+</html>
