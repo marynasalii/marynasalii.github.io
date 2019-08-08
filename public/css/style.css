@@ -58,14 +58,18 @@ h1 {
 
 /* HEADER STYLES*/
 
+.visible-flex {
+  display: flex;
+}
+
 #main-header {
   background-image: url(../img/hypnotize.png);
   min-height: 28rem;
 }
 
-#menu-toggle:checked+#menu {
+/* #menu-toggle:checked+#menu {
   display: flex;
-}
+} */
 
 #menu a {
   -webkit-transition: font-size .3s;
@@ -74,10 +78,6 @@ h1 {
 
 #menu a:hover {
   font-size: 1.875rem;
-}
-
-#menu-close:checked+#menu {
-  display: hidden;
 }
 
 .overlay {
