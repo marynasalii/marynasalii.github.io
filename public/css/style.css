@@ -67,16 +67,12 @@ h1 {
   min-height: 28rem;
 }
 
-/* #menu-toggle:checked+#menu {
-  display: flex;
-} */
-
-#menu a {
-  -webkit-transition: font-size .3s;
-  transition: font-size .3s ease-in-out;
+nav a {
+  -webkit-transition: font-size .2s;
+  transition: font-size .2s ease-in-out;
 }
 
-#menu a:hover {
+nav a:hover {
   font-size: 1.875rem;
 }
 

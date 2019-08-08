@@ -7633,15 +7633,11 @@ h1 {
   min-height: 28rem;
 }
 
-/* #menu-toggle:checked+#menu {
-  display: flex;
-} */
-
-#menu a {
-  transition: font-size .3s ease-in-out;
+nav a {
+  transition: font-size .2s ease-in-out;
 }
 
-#menu a:hover {
+nav a:hover {
   font-size: 1.875rem;
 }
 
