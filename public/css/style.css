@@ -67,6 +67,19 @@ h1 {
   display: flex;
 }
 
+#menu a {
+  -webkit-transition: font-size .3s;
+  transition: font-size .3s ease-in-out;
+}
+
+#menu a:hover {
+  font-size: 1.875rem;
+}
+
+#menu-close:checked+#menu {
+  display: hidden;
+}
+
 .overlay {
   background-color: hsla(0, 0%, 0%, .5);
 }
