@@ -3,7 +3,7 @@
     "start": "node server.js",
     "serve": "cross-env NODE_ENV=development concurrently \"postcss public/css/style.css -o public/build/style.css --watch\"  \"live-server .\"",
     "development": "cross-env NODE_ENV=development postcss public/css/style.css -o public/build/style.css",
-    "production": "node server.js && cross-env NODE_ENV=production postcss public/css/style.css -o public/build/style.css"
+    "production": "cross-env NODE_ENV=production postcss public/css/style.css -o public/build/style.css"
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
