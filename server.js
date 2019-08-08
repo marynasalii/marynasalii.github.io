@@ -9,7 +9,7 @@ app.get('/', function (request, response) {
     response.sendFile(__dirname + '/index.html');
 });
 
-app.post('/download', function (req, res) {
+app.get('/download', function (req, res) {
     var file = __dirname + '/public/download.pdf';
     res.download(file);
 });
