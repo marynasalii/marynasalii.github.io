@@ -3449,8 +3449,16 @@ video {
   align-content: space-around;
 }
 
+.flex-0 {
+  flex: 0 100%;
+}
+
 .flex-1 {
-  flex: 1 1 0%;
+  flex: 0 50%;
+}
+
+.flex-2 {
+  flex: 0 33%;
 }
 
 .flex-auto {
@@ -7146,14 +7154,6 @@ video {
   font-size: .875rem;
 }
 
-.text-7xl {
-  font-size: 3.5rem;
-}
-
-.text-8xl {
-  font-size: 4rem;
-}
-
 .italic {
   font-style: italic;
 }
@@ -7606,6 +7606,16 @@ h1 {
 
 .vertical-line-gray {
   border-left: 2px solid #334E68;
+}
+
+/* .flex-33 {
+  flex: 0 50%;
+} */
+
+@media screen and (max-width: 640px) {
+  /* .flex-33 {
+    flex: 0 50%;
+  } */
 }
 
 @media screen and (min-width: 1024px) {
@@ -10484,8 +10494,16 @@ button {
     align-content: space-around;
   }
 
+  .sm\:flex-0 {
+    flex: 0 100%;
+  }
+
   .sm\:flex-1 {
-    flex: 1 1 0%;
+    flex: 0 50%;
+  }
+
+  .sm\:flex-2 {
+    flex: 0 33%;
   }
 
   .sm\:flex-auto {
@@ -14181,14 +14199,6 @@ button {
     font-size: .875rem;
   }
 
-  .sm\:text-7xl {
-    font-size: 3.5rem;
-  }
-
-  .sm\:text-8xl {
-    font-size: 4rem;
-  }
-
   .sm\:italic {
     font-style: italic;
   }
@@ -17422,8 +17432,16 @@ button {
     align-content: space-around;
   }
 
+  .md\:flex-0 {
+    flex: 0 100%;
+  }
+
   .md\:flex-1 {
-    flex: 1 1 0%;
+    flex: 0 50%;
+  }
+
+  .md\:flex-2 {
+    flex: 0 33%;
   }
 
   .md\:flex-auto {
@@ -21119,14 +21137,6 @@ button {
     font-size: .875rem;
   }
 
-  .md\:text-7xl {
-    font-size: 3.5rem;
-  }
-
-  .md\:text-8xl {
-    font-size: 4rem;
-  }
-
   .md\:italic {
     font-style: italic;
   }
@@ -24360,8 +24370,16 @@ button {
     align-content: space-around;
   }
 
+  .lg\:flex-0 {
+    flex: 0 100%;
+  }
+
   .lg\:flex-1 {
-    flex: 1 1 0%;
+    flex: 0 50%;
+  }
+
+  .lg\:flex-2 {
+    flex: 0 33%;
   }
 
   .lg\:flex-auto {
@@ -28057,14 +28075,6 @@ button {
     font-size: .875rem;
   }
 
-  .lg\:text-7xl {
-    font-size: 3.5rem;
-  }
-
-  .lg\:text-8xl {
-    font-size: 4rem;
-  }
-
   .lg\:italic {
     font-style: italic;
   }
@@ -31298,8 +31308,16 @@ button {
     align-content: space-around;
   }
 
+  .xl\:flex-0 {
+    flex: 0 100%;
+  }
+
   .xl\:flex-1 {
-    flex: 1 1 0%;
+    flex: 0 50%;
+  }
+
+  .xl\:flex-2 {
+    flex: 0 33%;
   }
 
   .xl\:flex-auto {
@@ -34993,14 +35011,6 @@ button {
 
   .xl\:text-tiny {
     font-size: .875rem;
-  }
-
-  .xl\:text-7xl {
-    font-size: 3.5rem;
-  }
-
-  .xl\:text-8xl {
-    font-size: 4rem;
   }
 
   .xl\:italic {

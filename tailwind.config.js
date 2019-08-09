@@ -28,21 +28,24 @@ module.exports = {
         '3xl': '1.875rem',
         '4xl': '2.25rem',
         '5xl': '2.7rem',
-        '6xl': '3rem',
-        '7xl': '3.5rem',
-        '8xl': '4rem',
+        '6xl': '3rem'
       },
       borderRadius: {
         'none': '0',
         'sm': '.125rem',
         default: '1.25rem',
         'lg': '3.75rem',
-        'full': '9999px',
+        'full': '9999px'
       },
       boxShadow: {
         default: '0 10px 6px -6px #777',
         outline: '0px 4px 4px rgba(0, 0, 0, 0.25)'
       },
+      flex: {
+      '0': '0 100%',
+      '1': '0 50%',
+      '2': '0 33%'
+      }
     },
     container: {
       padding: '2rem',
