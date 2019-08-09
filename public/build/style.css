@@ -7608,25 +7608,7 @@ h1 {
   border-left: 2px solid #334E68;
 }
 
-/* .flex-33 {
-  flex: 0 50%;
-} */
-
-@media screen and (max-width: 640px) {
-  /* .flex-33 {
-    flex: 0 50%;
-  } */
-}
-
 @media screen and (min-width: 1024px) {
-  .flex-50 {
-    flex: 0 50%;
-  }
-
-  .flex-33 {
-    flex: 0 33%;
-  }
-
   .custom-ml-19 {
     margin-left: 19rem;
   }
