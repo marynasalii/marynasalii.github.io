@@ -87,10 +87,31 @@ button {
 
 /* WHAT I USE SECTION STYLES*/
 
+.icon-circle {
+  -webkit-transition: background-color .2s;
+  transition: background-color .2s ease-in-out;
+}
+
+.icon-circle:hover {
+  background-color: #ffffff;
+}
+
 .icon-circle i {
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
+}
+
+/* FOOTER SECTION STYLES*/
+
+.social i {
+  -webkit-transition: color .2s;
+  transition: color .2s ease-in-out;
+}
+
+.social i:hover {
+  color: #829AB1;
 }
