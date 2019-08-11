@@ -14,4 +14,4 @@ app.get('/download', function (req, res) {
     res.download(file);
 });
 
-app.listen(port);
+app.listen(process.env.PORT || port);
