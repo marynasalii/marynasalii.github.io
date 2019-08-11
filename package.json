@@ -10,6 +10,7 @@
     "production": "cross-env NODE_ENV=production postcss public/css/style.css -o public/build/style.css"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1",
     "autoprefixer": "^9.5.1",
     "express": "^4.17.1",
     "tailwindcss": "^1.0"
