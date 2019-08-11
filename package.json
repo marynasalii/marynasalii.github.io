@@ -1,4 +1,8 @@
 {
+  "name": "marynainweb",
+  "version": "1.0.0",
+  "description": "Maryna Salii portfolio website",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "serve": "cross-env NODE_ENV=development concurrently \"postcss public/css/style.css -o public/build/style.css --watch\"  \"live-server .\"",
@@ -17,5 +21,8 @@
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
     "postcss-cli": "^6.1.2"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
