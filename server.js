@@ -10,7 +10,7 @@ app.get('/', function (request, response) {
 });
 
 app.get('/download', function (req, res) {
-    var file = __dirname + '/public/download.pdf';
+    var file = __dirname + '/public/Maryna Salii Resume.pdf';
     res.download(file);
 });
 
